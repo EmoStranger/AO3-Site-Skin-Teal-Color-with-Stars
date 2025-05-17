@@ -23,7 +23,7 @@ body {
   background: #3ba79e;
 }
 
-/* main body background img on site & works */
+/* main body background image on site & works */
 #main {
   background: url(https://gielxen.neocities.org/img/ao3.gif);
 }
@@ -655,6 +655,7 @@ li.blurb,
   padding: 10px;
 }
 
+/* header image */
 #header ul.primary {
   box-shadow: none;
   padding: 1em;
