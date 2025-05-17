@@ -1024,6 +1024,7 @@ span.symbol {
   color: #22242a;
 }
 
+/* symbol in front of tags */
 .characters a:before,
 .relationships a:before,
 .freeforms a:before,
@@ -1033,6 +1034,7 @@ span.symbol {
   padding: 0 0.25em 0 0;
 }
 
+/* symbol in front of fandom category */
 .splash .browse li a:before {
   color: #eeeeee;
   content: "\2726";
