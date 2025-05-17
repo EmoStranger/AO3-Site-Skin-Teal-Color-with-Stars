@@ -156,6 +156,11 @@ ul.notes,
   background-color: transparent !important;
 }
 
+/* site & work skin form font color*/
+form dd.required {
+  color: #eeeeee;
+}
+
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover {
   color: #2a2e35;
@@ -1566,43 +1571,54 @@ input[name="post_button"]:hover {
   content: "Bookmarked Items";
 }
 
+/*============================================================
+ REPLACE THE AO3 ICONS - default color scheme by ZerafinaCSS
+============================================================*/ 
+
 ul.required-tags,
 .bookmark .status span,
 .blurb .icon {
   opacity: 1 !important;
 }
 
+/*========== ICONS FOR USERS, COLLECTIONS, TAGS etc. ==========*/
+
+/* default user icon */
 img[src$="/images/skins/iconsets/default/icon_user.png"] {
   box-sizing: border-box;
   content: url("https://images.squidge.org/images/2025/02/15/zerafina_icon_user-default_01.png");
-  background: #6e6e6e;
+  background: #6e6e6e; /* change icon color here */
   border: 1.5px solid #ddd;
 }
 
+/* anon comment icon */
 .comment .icon .anonymous {
   box-sizing: border-box;
   background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_anon_01.png");
   background-size: cover;
-  background-color: #6e6e6e;
+  background-color: #6e6e6e; /* change background color here */
   border: 1.5px solid #00000025;
 }
 
+/* guest comment icon */
 .comment .icon .visitor {
   box-sizing: border-box;
   background: url("https://images.squidge.org/images/2025/02/15/zerafina_icon_user-visitor_01.png");
   background-size: cover;
-  background-color: #6e6e6e;
+  background-color: #6e6e6e; /* change background color here */
   border: 1.5px solid #00000025;
 }
 
+/* default collection icon */
 img[src$="/images/skins/iconsets/default/icon_collection.png"] {
   box-sizing: border-box;
   content: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_collection_01.png");
   background: linear-gradient(transparent, #ffffff50 45% 55%, transparent);
-  background-color: #616c90;
+  background-color: #616c90; /* change background color here */
   border: 1.5px solid #00000025;
 }
 
+/* tag icons */
 .tagset .primary .icon,
 .tag .primary .icon,
 .index .tagset .icon {
@@ -1610,38 +1626,44 @@ img[src$="/images/skins/iconsets/default/icon_collection.png"] {
   background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_tag_01.png"), 
     linear-gradient(transparent, #ffffff50 45% 55%, transparent);
   background-size: cover;
-  background-color: #900;
+  background-color: #900; /* change background color here */
   border: 1.5px solid #00000025;
 }
 
+/* icon for unrevealed works */
 .index .mystery .icon {
   box-sizing: border-box;
   background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_anon_01.png"), 
     linear-gradient(transparent, #ffffff50 45% 55%, transparent);
   background-size: cover;
-  background-color: #616c90;
+  background-color: #616c90; /* change background color here */
   border: 1.5px solid #ddd;
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+/* admin icon => seen on news posts */
 .admin .primary .icon {
   box-sizing: border-box;
   background: url("https://images.squidge.org/images/2025/02/13/zerafina_icon_admin_01.png")  no-repeat, 
     linear-gradient(#ffffff40, transparent);
   background-size: cover;
-  background-color: #900;
+  background-color: #900; /* change background color here */
   border: 1.5px solid #00000099;
 }
 
+/* default icon for skins */
 .skins .primary .icon:not(:has(a .icon)),
 .index .skins .icon:not(:has(a .icon)) {
   background: url("https://images.squidge.org/images/2025/02/15/zerafina_icon_skins_01.png");
   background-size: cover;
-  background-color: #900;
+  background-color: #900; /* change background color here */
   margin-left: 0px;
   border: 0px solid #ddd;
 }
 
+/*========== CONTENT SYMBOLS ==========*/
+
+/* sets the size of the symbols keys icons */
 #symbols-key dl img,
 #bookmark-symbols-key img {
   width: 0 !important;
@@ -1649,14 +1671,16 @@ img[src$="/images/skins/iconsets/default/icon_collection.png"] {
   padding: 25px 0 0 25px;
 }
 
+/* borders for content symbols*/
 .blurb ul.required-tags li span,
 .bookmark .status span:not(.status .private),
 #symbols-key dl img,
 #bookmark-symbols-key img {
   box-sizing: border-box;
-  box-shadow: inset 0 0 0 1px;
+  box-shadow: inset 0 0 0 1px; /* change border width here */
 }
 
+/* empty symbols boxes (no rating, category or warning) */
 .required-tags .rating-notrated,
 .required-tags .category-none,
 .required-tags .warning-no,
@@ -1664,161 +1688,190 @@ img[src$="/images/skins/iconsets/default/icon_collection.png"] {
 img[src$="/images/skins/iconsets/default/rating-notrated.png"],
 img[src$="/images/skins/iconsets/default/category-none.png"],
 img[src$="/images/skins/iconsets/default/warning-no.png"] {
-  background: #fff;
+  background: #fff; /* change background color here */
   color: #ddd;
 }
 
+/*===== Rating =====*/
+
+/* General Audiences */
 .required-tags .rating-general-audience,
 img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-gen_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-gen_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #8bc101;
+  background-color: #8bc101; /* change background color here */
   color: #0000001a;
 }
 
+/* Teen And Up Audiences */
 .required-tags .rating-teen,
 img[src$="/images/skins/iconsets/default/rating-teen.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-teen_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-teen_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #f5ce00;
+  background-color: #f5ce00; /* change background color here */
   color: #0000001a;
 }
 
+/* Mature */
 .required-tags .rating-mature,
 img[src$="/images/skins/iconsets/default/rating-mature.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-mature_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-mature_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #ef851c;
+  background-color: #ef851c; /* change background color here */
   color: #0000001a;
 }
 
+/* Explicit */
 .required-tags .rating-explicit,
 img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-explicit_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-explicit_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #b0021f;
+  background-color: #b0021f; /* change background color here */
   color: #0000001a;
 }
 
+/*===== Relationships, pairings, orientations =====*/
+
+/* F/F */
 .required-tags .category-femslash,
 img[src$="/images/skins/iconsets/default/category-femslash.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-ff_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-ff_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #b0021f;
+  background-color: #b0021f; /* change background color here */
   color: #0000001a;
 }
 
+/* F/M */
 .required-tags .category-het,
 img[src$="/images/skins/iconsets/default/category-het.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-mf_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-mf_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #910679;
+  background-color: #910679; /* change background color here */
   color: #0000001a;
 }
 
+/* General */
 .required-tags .category-gen,
 img[src$="/images/skins/iconsets/default/category-gen.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-gen_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-gen_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #8bc101;
+  background-color: #8bc101; /* change background color here */
   color: #0000001a;
 }
 
+/* M/M */
 .required-tags .category-slash,
 img[src$="/images/skins/iconsets/default/category-slash.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-mm_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-mm_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #0054d4;
+  background-color: #0054d4; /* change background color here */
   color: #0000001a;
 }
 
+/* Multi */
 .required-tags .category-multi,
 img[src$="/images/skins/iconsets/default/category-multi.png"] {
-  background: conic-gradient(from 270deg, #8bc101 25%, #910679 25% 50%, #0054d4 50% 75%, #b0021f 75%);
+  background: conic-gradient(from 270deg, #8bc101 25%, #910679 25% 50%, #0054d4 50% 75%, #b0021f 75%); /* url of new icon */
   color: #0000001a;
 }
 
+/* Other relationships */
 .required-tags .category-other,
 img[src$="/images/skins/iconsets/default/category-other.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-other_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-other_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #000;
+  background-color: #000; /* change background color here */
   color: #0000001a;
 }
 
+/*===== Content warnings =====*/
+
+/* Author chose not to warn */
 .required-tags .warning-choosenotto,
 img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-choosenotto_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-choosenotto_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #ef851c;
+  background-color: #ef851c; /* change background color here */
   color: #0000001a;
 }
 
+/* Warnings apply */
 .required-tags .warning-yes,
 img[src$="/images/skins/iconsets/default/warning-yes.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-yes_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-yes_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #b0021f;
+  background-color: #b0021f; /* change background color here */
   color: #0000001a;
 }
 
+/* External work */
 .required-tags .external-work,
 img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-external-work_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-external-work_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #107cb9;
+  background-color: #107cb9; /* change background color here */
   color: #0000001a;
 }
 
+/*===== Completion status =====*/
+
+/* uncomplete/unfulfilled */
 .required-tags .complete-no,
 img[src$="/images/skins/iconsets/default/complete-no.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_complete-no_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_complete-no_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #b0021f;
+  background-color: #b0021f; /* change background color here */
   color: #0000001a;
 }
 
+/* completed/filled */
 .required-tags .complete-yes,
 img[src$="/images/skins/iconsets/default/complete-yes.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_complete-yes_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_complete-yes_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #8bc101;
+  background-color: #8bc101; /* change background color here */
   color: #0000001a;
 }
 
+/*===== BOOKMARK SYMBOLS =====*/
+
+/* Rec */
 .status .rec,
 img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-rec_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-rec_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #107cb9;
+  background-color: #107cb9; /* change background color here */
   color: #0000001a;
 }
 
+/* Public bookmark */
 .status .public,
 img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-public_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-public_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #107cb9;
+  background-color: #107cb9; /* change background color here */
   color: #0000001a;
 }
 
+/* Private Bookmark */
 .status .private .text,
 img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
   font-size: inherit;
   text-indent: -9999px;
   white-space: nowrap;
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-locked_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-locked_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #000;
-  color: #ddd;
+  background-color: #000; /* change lock color here */
+  color: #ddd; /* change border color here */
 }
 
+/* Hidden Bookmark */
 .status .hidden,
 img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
-  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-locked_01.png");
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-locked_01.png"); /* url of new icon */
   background-size: cover;
-  background-color: #b0021f;
-  color: #ddd;
+  background-color: #b0021f; /* change lock color here */
+  color: #ddd; /* change border color here */
 }
 
 /*========== RSS FEED SYMBOLS ==========*/
@@ -1842,7 +1895,7 @@ a.rss span::before {
   height: 14px;
   width: 14px;
   position: absolute;
-  background-image: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rss_01.png");
+  background-image: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rss_01.png"); /* url of new icon */
   background-size: cover;
   border-radius: 2px;
   margin: 1px 0 0 -18px;
@@ -1855,8 +1908,4 @@ a.rss span::before {
 img[src$="/images/lockblue.png"] {
   content: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_lock_01.png");
   filter: invert(12%) sepia(100%) saturate(4991%) hue-rotate(244deg) brightness(71%) contrast(144%);
-}
-
-form dd.required {
-  color: #eeeeee;
 }
