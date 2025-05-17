@@ -3,7 +3,7 @@ body {
 }
 
 .userstuff p {
-  font-size: 10pt !important;
+  font-size: 100% !important;
 }
 
 ::selection {
