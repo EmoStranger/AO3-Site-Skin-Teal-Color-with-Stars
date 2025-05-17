@@ -1821,10 +1821,22 @@ img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
   color: #ddd;
 }
 
+/*========== RSS FEED SYMBOLS ==========*/
+
+/* hide old rss symbol */
 a.rss span {
   background: none;
 }
 
+/* setup for the new rss symbol */
+.actions li a.rss {
+	display: inline-flex;
+  align-content: center;
+	align-items: center;
+	column-gap: 0.3em;
+}
+
+/* new rss symbol */
 a.rss span::before {
   content: "";
   height: 14px;
@@ -1839,6 +1851,7 @@ a.rss span::before {
   color: #00000025;
 }
 
+/*========== LOCK SYMBOL for restricted works ==========*/
 img[src$="/images/lockblue.png"] {
   content: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_lock_01.png");
   filter: invert(12%) sepia(100%) saturate(4991%) hue-rotate(244deg) brightness(71%) contrast(144%);
