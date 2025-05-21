@@ -1171,7 +1171,7 @@ dl.stats dt {
   background: #2a2e35;
 }
 
-/* work texts (default when Hiding Creator's Style) */
+/* summary blurb and work texts (default when Hiding Creator's Style) */
 .userstuff p {
   color: #969696; /* change the color of the text */
   outline: none;
