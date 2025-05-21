@@ -1,3 +1,8 @@
+/*========================================
+     Teal Skin with Stars by tealtiam
+     Codes Modified by EmoStranger
+========================================*/
+/* site and work text size */
 body {
   font-size: 100% !important;
 }
@@ -6,22 +11,30 @@ body {
   font-size: 100% !important;
 }
 
+/* cursor highlight */
 ::selection {
-  background-color: #3ba79e;
-  color: #2a2e35;
+  background-color: #3ba79e; /* change the color of the highlight */
+  color: #2a2e35; /* change the text color when highlighted */
 }
 
+/*======= scroll bar on web browser =======*/
+
+/* width of scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
+/* scrollbar track */
 ::-webkit-scrollbar-track {
-  background: #2a2e35;
+  background: #2a2e35; /* change the color of the track of the scrollbar */
 }
 
+/* scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #3ba79e;
+  background: #3ba79e; /* change the color of the scrollbar */
 }
+
+/*======= SITE BODY and WORKS =======*/ 
 
 /* main body background image on site & works */
 #main {
@@ -97,10 +110,13 @@ body {
   background: #2a2e35 !important;
 }
 
+/* transition when cursor hovers over icon images and tags */
 a {
   transition: 0.2s ease-in-out !important;
 }
 
+/* font for site buttons (including login/out & search), tags, site text, works text, search text, tier 2 dropdown (Sort and Filters), blurb stats, announcement, footer links */
+/* I'm trying to figure out where else tealtiam changed the fonts of ... oof */
 body,
 th,
 tr:hover,
@@ -123,8 +139,8 @@ textarea,
 .dashboard .listbox .index,
 .nomination dt {
   background: #22242a;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;
-  color: #eeeeee;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif; /* change the font text of site, works, tags, buttons, etc. */
+  color: #eeeeee; /* change the color of the font */
 }
 
 #outer.wrapper {
@@ -1024,20 +1040,20 @@ span.symbol {
   color: #22242a;
 }
 
-/* symbol in front of tags */
+/* symbol in front of tags *//* https://www.toptal.com/designers/htmlarrows/symbols/ for the list symbol codes */
 .characters a:before,
 .relationships a:before,
 .freeforms a:before,
 .tags a:before {
-  color: #eeeeee;
-  content: "\2726";
+  color: #eeeeee; /* change the color of the symbol */
+  content: "\2726"; /* change the symbol on the tags */
   padding: 0 0.25em 0 0;
 }
 
 /* symbol in front of fandom category */
 .splash .browse li a:before {
-  color: #eeeeee;
-  content: "\2726";
+  color: #eeeeee; /* change the color of the symbol */
+  content: "\2726"; /* change the symbol on the tags */
   padding: 0 0.25em 0 0;
 }
 
@@ -1155,19 +1171,22 @@ dl.stats dt {
   background: #2a2e35;
 }
 
+/* work texts (default when Hiding Creator's Style) */
 .userstuff p {
-  color: #969696;
+  color: #969696; /* change the color of the text */
   outline: none;
-  font-size: medium;
+  font-size: medium; /* change the size of the text */
 }
 
+/* datetime on blurbs, comments, and posts */
 .user .datetime {
-  color: #f7f7f7;
+  color: #f7f7f7; /* change the font color of the date and time */ 
 }
 
+/* summary and notes */
 .preface blockquote {
   border: 0;
-  font-size: small;
+  font-size: initial; /* change the font size of the summary and notes */
 }
 
 p.kudos {
@@ -1290,7 +1309,7 @@ input[name="post_button"]:hover {
   box-shadow: none;
 }
 
-/* warning, relationships, characters, additional tags, and series tag colors on blurbs */
+/*======= warning, relationships, characters, additional tags, and series tag colors on blurbs ======= */
 .warnings,
 .warning .tags,
 .relationships,
@@ -1304,26 +1323,31 @@ input[name="post_button"]:hover {
   color: transparent;
 }
 
+/* warning tag */
 .warnings a,
 .warning .tags a {
   color: #b1050a; /* change the color of the tag */
 }
 
+/* relationship tag */
 .relationships a,
 .relationships .tags a {
   color: #e3c26c; /* change the color of the tag */
 }
 
+/* characters tag */
 .characters a,
 .characters .tags a {
   color: #528fbe; /* change the color of the tag */
 }
 
+/* additional tag */
 .freeforms a,
 .freeforms .tags a {
   color: #008000; /* change the color of the tag */
 }
 
+/* series tag */
 .series a,
 .series .tags a {
   color: #3ba79e; /* change the color of the tag */
