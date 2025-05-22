@@ -43,7 +43,7 @@ body {
 
 /* white stars raining on the top of any works */
 #workskin {
-  background: url(https://gielxen.neocities.org/img/tumblr_52b59ff9d2ebb288ac5cf797c77f01b1_c6e20708_640.gif);
+  background: url(https://gielxen.neocities.org/img/tumblr_52b59ff9d2ebb288ac5cf797c77f01b1_c6e20708_640.gif); /* url of work banner here */
   background-repeat: repeat-x;
   background-position: top;
   background-color: #22242a9e;
@@ -116,7 +116,6 @@ a {
 }
 
 /* font for site buttons (including login/out & search), tags, site text, works text, search text, tier 2 dropdown (Sort and Filters), blurb stats, announcement, footer links */
-/* I'm trying to figure out where else tealtiam changed the fonts of ... oof */
 body,
 th,
 tr:hover,
@@ -139,7 +138,7 @@ textarea,
 .dashboard .listbox .index,
 .nomination dt {
   background: #22242a;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif; /* change the font text of site, works, tags, buttons, etc. here*/
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif; /* change the font text of site, works, tags, buttons, etc. here */
   color: #eeeeee; /* change the color of the font here */
 }
 
@@ -196,8 +195,9 @@ form dd.required {
   color: #eeeeee !important;
 }
 
+/* content work symbol container */
 .blurb ul.required-tags {
-  background: #2a2e35 !important;
+  background: #2a2e35 !important; /* change the background color here */
 }
 
 .filters dl {
