@@ -433,12 +433,13 @@ a.current,
   border-color: #2a2e35;
 }
 
+/* Headers (Find Your Favorites, Is It Later Already?, Follow Us), Guest Names, Posted Datetime */
 .heading a,
 .userstuff,
 .heading,
 #heading h3,
 .splash .module h3 {
-  color: #eeeeee;
+  color: #eeeeee; /* change color of the font here */
 }
 
 .listbox>.heading {
@@ -856,7 +857,7 @@ li.selected {
   background: #eeeeee;
 }
 
-/* Post Works (Rating, Archive Warning, Fandoms, Work Titles, Language Selection), AO3 Title Header, News Header, Unread Messages Header, popular tags, tag set title, work titles, authors */
+/* Post Works (Rating, Archive Warning, Fandoms, Work Titles, Language Selection), AO3 Title Header, News Header, Unread Messages Header, popular tags, tag set title, work titles, authors, Edit Skin (Title, Type) */
 #header #greeting img,
 #header .heading a,
 #header fieldset,
