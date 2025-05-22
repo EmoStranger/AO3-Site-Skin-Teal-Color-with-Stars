@@ -13,8 +13,8 @@ body {
 
 /* cursor highlight */
 ::selection {
-  background-color: #3ba79e; /* change the color of the highlight */
-  color: #2a2e35; /* change the text color when highlighted */
+  background-color: #3ba79e; /* change the color of the highlight here */
+  color: #2a2e35; /* change the text color when highlighted here */
 }
 
 /*======= scroll bar on web browser =======*/
@@ -26,12 +26,12 @@ body {
 
 /* scrollbar track */
 ::-webkit-scrollbar-track {
-  background: #2a2e35; /* change the color of the track of the scrollbar */
+  background: #2a2e35; /* change the color of the track of the scrollbar here */
 }
 
 /* scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #3ba79e; /* change the color of the scrollbar */
+  background: #3ba79e; /* change the color of the scrollbar here */
 }
 
 /*======= SITE BODY and WORKS =======*/ 
@@ -112,7 +112,7 @@ body {
 
 /* transition when cursor hovers over icon images and tags */
 a {
-  transition: 0.2s ease-in-out !important;
+  transition: 0.2s ease-in-out !important; /* change the seconds for transition speed here */
 }
 
 /* font for site buttons (including login/out & search), tags, site text, works text, search text, tier 2 dropdown (Sort and Filters), blurb stats, announcement, footer links */
@@ -139,8 +139,8 @@ textarea,
 .dashboard .listbox .index,
 .nomination dt {
   background: #22242a;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif; /* change the font text of site, works, tags, buttons, etc. */
-  color: #eeeeee; /* change the color of the font */
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif; /* change the font text of site, works, tags, buttons, etc. here*/
+  color: #eeeeee; /* change the color of the font here */
 }
 
 #outer.wrapper {
@@ -301,8 +301,8 @@ h5.heading,
   padding-left: 0;
   padding-right: 0;
   text-align: center;
-  color: #eeeeee; /* change the color of the font */
-  background: #28282a; /* change the background color of the button */
+  color: #eeeeee; /* change the color of the font here */
+  background: #28282a; /* change the background color of the button here */
 }
 
 #header #search>* {
@@ -465,8 +465,8 @@ a.tag {
 a.current,
 .current a:visited,
 .current a:link {
-  color: #eeeeee !important; /* change the color of the font */
-  background: #28282a; /* change the background color of the buttons */
+  color: #eeeeee !important; /* change the color of the font here */
+  background: #28282a; /* change the background color of the buttons here */
   border: none;
   border-bottom: none;
   background-image: none;
@@ -617,11 +617,13 @@ a.cloud5 {
   color: #eeeeee;
 }
 
+/* highlighted links after visiting once */
 a:visited,
 a.cloud6 {
-  color: #20C2C6;
+  color: #20C2C6; /* change the color of the link here */
 }
 
+/* blurbs (works, dashboard statistics, profile, tag sets), top button, selection button, input text boxes (comments, HTML, Work Titles, etc.) */
 thead,
 tfoot,
 tfoot td,
@@ -649,15 +651,15 @@ dl.meta,
 #dashboard.own,
 .picture .header,
 .bookmark .user {
-  border-color: #3ba79e;
-  background: #22242a;
+  border-color: #3ba79e; /* change the color of the border here */
+  background: #22242a; /* change the color of the background here */
   border-radius: 5px;
 }
 
 /* blurbs background color */
 li.blurb {
   border-radius: 0.75em;
-  background: #2a2e35;
+  background: #2a2e35; /* change the color of the background here */
   border: none;
 }
 
@@ -666,7 +668,7 @@ li.blurb,
 .blurb .blurb,
 .listbox .index,
 .dashboard .listbox .index {
-  box-shadow: 3px 0px 0px #a7a7a7,/* change right side color */ -3px 0px 0px #a7a7a7; /* change left side color */
+  box-shadow: 3px 0px 0px #a7a7a7,/* change right side color here */ -3px 0px 0px #a7a7a7; /* change left side color here */
   box-sizing: border-box;
   padding: 10px;
 }
@@ -676,7 +678,7 @@ li.blurb,
   box-shadow: none;
   padding: 1em;
   color: #3ba79e;
-  background: #22242a url(https://64.media.tumblr.com/3463faccbc2038df9100c0a553852c58/tumblr_inline_n258zogMiD1qhwjx8.png);
+  background: #22242a url(https://64.media.tumblr.com/3463faccbc2038df9100c0a553852c58/tumblr_inline_n258zogMiD1qhwjx8.png); /* url image here */
   background-position-y: -400px;
   background-attachment: fixed;
   background-blend-mode: luminosity;
@@ -689,10 +691,11 @@ li.blurb,
   padding: 8px;
 }
 
+/* Fandoms, Browse, Search, and About (Dropdowns), plus greeting and Post */
 #header .dropdown,
 #header .dropdown a,
 #header .dropdown a:hover {
-  color: #3ba79e !important;
+  color: #3ba79e !important; /* change the color of the font here */
 }
 
 #header .dropdown .menu .current {
@@ -853,6 +856,7 @@ li.selected {
   background: #eeeeee;
 }
 
+/* Post Works (Rating, Archive Warning, Fandoms, Work Titles, Language Selection), AO3 Title Header, News Header, Unread Messages Header, popular tags, tag set title, work titles, authors */
 #header #greeting img,
 #header .heading a,
 #header fieldset,
@@ -882,7 +886,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-  color: #eeeeee;
+  color: #eeeeee; /* change color of text here */
 }
 
 #outer #header #greeting .icon,
@@ -1045,15 +1049,15 @@ span.symbol {
 .relationships a:before,
 .freeforms a:before,
 .tags a:before {
-  color: #eeeeee; /* change the color of the symbol */
-  content: "\2726"; /* change the symbol on the tags */
+  color: #eeeeee; /* change the color of the symbol here */
+  content: "\2726"; /* change the symbol on the tags here */
   padding: 0 0.25em 0 0;
 }
 
 /* symbol in front of fandom category */
 .splash .browse li a:before {
-  color: #eeeeee; /* change the color of the symbol */
-  content: "\2726"; /* change the symbol on the tags */
+  color: #eeeeee; /* change the color of the symbol here */
+  content: "\2726"; /* change the symbol on the tags here */
   padding: 0 0.25em 0 0;
 }
 
@@ -1066,8 +1070,8 @@ input[type="submit"],
 .actions li .current,
 .actions li label,
 .action:link {
-  color: #eeeeee; /* change the color of the font */
-  background: #28282a; /* change the background color of the button */
+  color: #eeeeee; /* change the color of the font here */
+  background: #28282a; /* change the background color of the button here */
   border: none !important;
   border-bottom: none;
   background-image: none;
@@ -1163,8 +1167,9 @@ dl.stats dt {
   margin-bottom: 5px;
 }
 
+/* dashboard and news tabs */
 #dashboard {
-  border: 1px solid #3ba79e !important;
+  border: 1px solid #3ba79e !important; /* change the color of the dashboard border here */
   padding: 0.5em 0;
   border-radius: 0.25em;
   margin-left: 10px;
@@ -1173,20 +1178,20 @@ dl.stats dt {
 
 /* summary blurb and work texts (default when Hiding Creator's Style) */
 .userstuff p {
-  color: #969696; /* change the color of the text */
+  color: #969696; /* change the color of the text here */
   outline: none;
-  font-size: medium; /* change the size of the text */
+  font-size: medium; /* change the size of the text here */
 }
 
 /* datetime on blurbs, comments, and posts */
 .user .datetime {
-  color: #f7f7f7; /* change the font color of the date and time */ 
+  color: #f7f7f7; /* change the font color of the date and time here */ 
 }
 
 /* summary and notes */
 .preface blockquote {
   border: 0;
-  font-size: initial; /* change the font size of the summary and notes */
+  font-size: initial; /* change the font size of the summary and notes here */
 }
 
 p.kudos {
@@ -1326,31 +1331,31 @@ input[name="post_button"]:hover {
 /* warning tag */
 .warnings a,
 .warning .tags a {
-  color: #b1050a; /* change the color of the tag */
+  color: #b1050a; /* change the color of the tag here */
 }
 
 /* relationship tag */
 .relationships a,
 .relationships .tags a {
-  color: #e3c26c; /* change the color of the tag */
+  color: #e3c26c; /* change the color of the tag here */
 }
 
 /* characters tag */
 .characters a,
 .characters .tags a {
-  color: #528fbe; /* change the color of the tag */
+  color: #528fbe; /* change the color of the tag here */
 }
 
 /* additional tag */
 .freeforms a,
 .freeforms .tags a {
-  color: #008000; /* change the color of the tag */
+  color: #008000; /* change the color of the tag here */
 }
 
 /* series tag */
 .series a,
 .series .tags a {
-  color: #3ba79e; /* change the color of the tag */
+  color: #3ba79e; /* change the color of the tag here */
 }
 
 .event.announcement .userstuff a,
