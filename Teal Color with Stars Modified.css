@@ -1192,7 +1192,7 @@ dl.stats dt {
 /* summary and notes */
 .preface blockquote {
   border: 0;
-  font-size: initial; /* change the font size of the summary and notes here */
+  font-size: 100%; /* change the font size of the summary and notes here */
 }
 
 p.kudos {
