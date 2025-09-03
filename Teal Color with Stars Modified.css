@@ -1379,21 +1379,6 @@ input[name="post_button"]:hover {
   border-radius: 5px;
 }
 
-.event.announcement .userstuff a,
-.filters .expander {
-  color: #eee;
-}
-
-.kudos_error {
-  background: transparent;
-  border-color: #900;
-  box-shadow: none;
-}
-
-.blurb ul.required-tags li span {
-  border-radius: 5px;
-}
-
 .statistics .index li:nth-of-type(2n) {
   background: transparent;
 }
