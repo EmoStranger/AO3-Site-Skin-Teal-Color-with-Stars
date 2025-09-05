@@ -2,6 +2,46 @@
      Teal Skin with Stars by tealtiam
      Violet Version by EmoStranger
 ========================================*/
+/*========================================
+     HEX COLOR GUIDE: Violet & Purple
+==========================================
+Use Ctrl+F/Find tool to search for the
+colors to the coded groups below:
+==========================================
+>Header Background
+	Dark Purple:  #201925
+
+>Link(s)
+	Violet:		  #ba55d3
+
+>Visited Link(s)
+	Amethyst:	  #ad34cb
+
+>Purple Buttons
+	Plum Purple:  #2d1f33
+
+>Dark Buttons
+	Dark Gray:	  #2c2d31
+
+>Blurb Outline
+	Violet:		  #ba55d3
+
+>Works Blurb Background & Footer
+	Purple:		  #331d3d
+
+>Tag Symbol Color
+	Yellow:		  #d9d073
+
+>Color Coded Tags
+	warning:      #b1050a; red
+    relationship: #ffd700; gold
+    character:    #528fbe; blue
+	additional:   #008000; green
+
+========================================*/
+/*========================================
+     	  CSS Codes Down Below 
+========================================*/
 /* site and work text size */
 body {
   font-size: 100% !important;
@@ -467,7 +507,7 @@ a.current,
 .current a:visited,
 .current a:link {
   color: #eeeeee !important; /* change the color of the font here */
-  background: #2D1F33; /* change the background color of the buttons here */
+  background: #2d1f33; /* change the background color of the buttons here */
   border: none;
   border-bottom: none;
   background-image: none;
@@ -628,7 +668,7 @@ a.cloud5 {
 /* highlighted links after visiting once */
 a:visited,
 a.cloud6 {
-  color: #AD34CB; /* change the color of the link here */
+  color: #ad34cb; /* change the color of the link here */
 }
 
 /* blurbs (works, dashboard statistics, profile, tag sets), top button, selection button, input text boxes (comments, HTML, Work Titles, etc.) */
@@ -1197,7 +1237,7 @@ dl.stats dt {
 
 /* summary blurb and work texts (default when Hiding Creator's Style) */
 .userstuff p {
-  color: #E6E6FA; /* change the color of the text here */
+  color: #e6e6fa; /* change the color of the text here */
   outline: none;
 }
 
@@ -1354,7 +1394,7 @@ input[name="post_button"]:hover {
 /* relationship tag */
 .relationships a,
 .relationships .tags a {
-  color: #FFD700; /* change the color of the tag here */
+  color: #ffd700; /* change the color of the tag here */
 }
 
 /* characters tag */
