@@ -323,6 +323,21 @@ li.search fieldset,
   -webkit-appearance: none;
 }
 
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  color: #00BFFF;
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  box-shadow: inset 2px 2px 2px #bbb;
+}
+
 .input,
 .highlighted {
   border: none;
