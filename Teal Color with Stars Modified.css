@@ -662,6 +662,7 @@ dl.meta,
   border-color: #3ba79e; /* change the color of the border here */
   background: #22242a; /* change the color of the background here */
   border-radius: 5px;
+  margin-bottom: 6px;
 }
 
 /* blurbs background color */
