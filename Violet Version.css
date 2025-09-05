@@ -1,0 +1,1870 @@
+body {
+  font-size: 100% !important;
+}
+
+.userstuff p {
+  font-size: 100% !important;
+}
+
+::selection {
+  background-color: #ba55d3;
+  color: #331d3d;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #331d3d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ba55d3;
+}
+
+#main {
+  background: url(https://images.squidge.org/images/2025/09/03/IMG_4067.png);
+}
+
+#workskin {
+  background: url(https://images.squidge.org/images/2025/08/03/tumblr_52b59ff9d2ebb288ac5cf797c77f01b1_c6e20708_640.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+  background-color: #2019254f;
+}
+
+#workskin img {
+  border-radius: 1rem;
+}
+
+#workskin img {
+  max-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.comment,
+.thread .even {
+  border-radius: .75em;
+  border: 1px solid #ba55d3;
+  padding: 10px;
+  background: #2019254f;
+}
+
+li.comment,
+.thread .odd {
+  border-radius: .75em;
+  border: 1px solid #ba55d3;
+  padding: 10px;
+  background: #2019254f;
+}
+
+li.comment {
+  border-radius: .75em;
+  border: 1px solid #ba55d3;
+  padding: 10px;
+  background: #2019254f;
+}
+
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions .current:hover {
+  color: #eee !important;
+  background: #331d3d !important;
+}
+
+.actions a:hover,
+.actions li .current a:hover {
+  background: #331d3d !important;
+  background-image: none;
+  color: #eee !important;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #201925;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #331d3d;
+}
+
+body {
+  background: #331d3d !important;
+}
+
+a {
+  transition: 0.2s ease-in-out !important;
+}
+
+body,
+th,
+tr:hover,
+col.name,
+form blockquote.userstuff,
+input:focus,
+input,
+select:focus,
+select,
+textarea:focus,
+textarea,
+.autocomplete div.dropdown ul,
+#ui-datepicker-div,
+#ibox_wrapper,
+#ibox_content,
+.toggled form,
+.dynamic form,
+.secondary,
+.listbox .index,
+.dashboard .listbox .index,
+.nomination dt {
+  background: #201925;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+  color: #eeeeee;
+}
+
+#outer.wrapper {
+  background-color: #201925 !important;
+}
+
+.bookmark .count a {
+  color: #201925 !important;
+}
+
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash {
+  color: #eee;
+  background-color: #ce4c4c;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px !important;
+}
+
+#header .search input[type="text"],
+#header .search input[type="text"]:focus {
+  color: #eeeeee !important;
+}
+
+#header .logo {
+  display: none;
+}
+
+.home .header h2 {
+  border-bottom: 0px;
+}
+
+.subscription dd {
+  background-color: transparent !important;
+}
+
+form dd.required {
+  color: #eeeeee;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite a:hover {
+  color: #331d3d;
+  background-color: #eeeeee;
+}
+
+#dashboard .actions a,
+#dashboard .actions a:visited {
+  color: #eeeeee !important;
+}
+
+.blurb ul.required-tags {
+  background: #331d3d !important;
+}
+
+.filters dl {
+  background: #331d3d;
+}
+
+#dashboard .actions .current {
+  color: #eeeeee !important;
+  background: #201925;
+}
+
+.announcement .userstuff h2 {
+  margin-top: 10px;
+  color: #201925;
+}
+
+fieldset fieldset,
+fieldset dl dl,
+.fieldset,
+fieldset {
+  border-radius: 0.75em;
+  background: #201925;
+}
+
+#header .user a,
+#header .user a:visited {
+  margin: 2px;
+  color: #eeeeee !important;
+  padding: 0.6em 0.75em;
+}
+
+.picture .header {
+  border: none;
+}
+
+li.comment,
+.thread .even {
+  border-radius: 0.75em;
+}
+
+.bookmark div.user {
+  border-radius: 0.5em;
+}
+
+.blurb .header .heading {
+  background: transparent !important;
+}
+
+.blurb .stats {
+  color: #f7f7f7;
+}
+
+.module .heading h4,
+.module .heading h5,
+h5.module .fandoms .heading,
+.meta .stats,
+.meta .stats dl dt,
+.meta .stats dl dd,
+.dashboard .own .work {
+  background: transparent !important;
+}
+
+h5.heading,
+.user .datetime,
+.bookmark .user .userstuff,
+.bookmark .user .meta {
+  margin: 10px;
+}
+
+.reading h4.viewed {
+  background: #331d3d;
+  border: 1px solid #eeeeee;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+.posted {
+  font-size: 0.8em;
+}
+
+#header .menu,
+#header .menu li a:link,
+#header .menu li a:visited {
+  border-radius: 0.75em;
+  background: #331d3d !important;
+  color: #eeeeee !important;
+  border: none;
+}
+
+#header .menu li a:hover,
+#header .dropdown:hover a {
+  color: #eeeeee !important;
+  background: #201925 !important;
+}
+
+.filters .submit input {
+  height: 100%;
+  margin: 1em 0;
+  min-height: 1.286em;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  color: #eeeeee;
+  background: #2b2a36;
+}
+
+#header #search>* {
+  width: 70%;
+  white-space: nowrap;
+  margin-right: 60px;
+}
+
+form.verbose legend,
+.verbose form legend {
+  height: auto;
+  width: auto;
+  font-size: 75%;
+  background: #ba55d3;
+  color: #201925;
+  border: none;
+  padding: 0.5em;
+  box-shadow: none;
+  opacity: 1;
+  margin: 10px;
+  border-radius: 0.5em;
+}
+
+.actions input[type="text"],
+.actions input[type="text"]:focus,
+.textarea,
+.autocomplete input,
+form.search input[type="text"],
+form.search input[type="text"]:focus,
+li.search fieldset,
+.search input[type="text"],
+.search input[type="text"]:focus {
+  color: #9e9e9e;
+  background: #201925;
+  border: 1px solid #eeeeee;
+  border-radius: 0.25em;
+  box-shadow: none;
+  font: 90%;
+  padding: 5px;
+  width: 90%;
+  -webkit-appearance: none;
+}
+
+.input,
+.highlighted {
+  border: none;
+}
+
+.filters input:checked+.indicator+span {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu,
+.actions a,
+.actions a:link,
+.actions a:active,
+.actions a:visited,
+.current span,
+.current,
+a.current,
+.actions .current,
+.current,
+.current a:visited,
+.current a:link,
+#dashboard .current,
+.actions a:active,
+span.unread,
+.replied,
+span.claimed,
+.own,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  color: #ba55d3;
+  border: 2px solid #ba55d3;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+dl.index dd {
+  color: #eeeeee;
+}
+
+.draft,
+.draft .wrapper {
+  color: #eeeeee;
+}
+
+#header h2,
+#footer ul,
+#footer ul.navigation a,
+.autocomplete .dropdown ul li:hover,
+li.selected,
+a.tag:hover {
+  color: #201925;
+}
+
+a.tag:hover,
+.listbox .heading a.tag:visited:hover {
+  background: #ba55d3 !important;
+}
+
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+form dt,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip {
+  border-color: #331d3d;
+}
+
+.heading a,
+.userstuff,
+.heading,
+#heading h3,
+.splash .module h3 {
+  color: #eeeeee;
+}
+
+.listbox>.heading {
+  color: #eeeeee;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.listbox .index {
+  background: #331d3d;
+}
+
+a.tag {
+  border-bottom: none;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.actions a,
+.actions a:link,
+.actions a:visited,
+.current,
+a.current,
+.current a:visited,
+.current a:link {
+  color: #eeeeee !important;
+  background: #2D1F33;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+.listbox {
+  border: none;
+  border-radius: 0.5em;
+}
+
+.actions a:hover,
+.actions li .current a:hover {
+  background: #2b2a36;
+  color: #eeeeee !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+.action.top,
+.action a:link {
+  color: #eeeeee;
+  height: auto;
+  font-weight: bolder;
+  padding: 0.2em;
+}
+
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: #ba55d3;
+}
+
+.splash .module h3 {
+  border-bottom: none;
+  font-variant: small-caps;
+  font-size: 1.914em;
+}
+
+form .notice,
+form ul.notes {
+  box-shadow: none;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+li.relationships,
+li.relationships a,
+.thread .even,
+.preface h3 {
+  background-color: transparent;
+}
+
+a:hover,
+.splash .browse a:hover {
+  color: #ba55d3;
+}
+
+#login-block,
+li.blurb,
+fieldset,
+form dl,
+#dashboard ul.navigation,
+#dashboard ul,
+#symbols-key dl,
+.toggled form,
+.dynamic form,
+div.comment,
+li.comment,
+.comment div.icon,
+.autocomplete div.dropdown ul,
+#modal,
+.bookmark p.count span,
+.ui-sortable li:hover,
+.actions a:hover,
+.actions input:hover,
+.userstuff blockquote {
+  border-color: #331d3d;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  box-shadow: none;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu,
+#dashboard .current,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #331d3d;
+}
+
+#bookmark-form {
+  background: #331d3d;
+}
+
+#dashboard.own,
+#dashboard .secondary,
+#dashboard ul.navigation {
+  background: #331d3d !important;
+}
+
+#dashboard.own {
+  border-top: none;
+  border-bottom: none;
+}
+
+#dashboard ul {
+  padding: 10px 0;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+a.cloud4,
+a.cloud5 {
+  color: #eeeeee;
+}
+
+a:visited,
+a.cloud6 {
+  color: #AD34CB;
+}
+
+thead,
+tfoot,
+tfoot td,
+th,
+tr:hover,
+col.name,
+input,
+textarea,
+#modal .content,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+span.unread,
+.replied,
+span.claimed,
+.system .latest h3,
+.system div.news h3,
+.listbox,
+fieldset fieldset.listbox,
+dl.meta,
+#dashboard.own,
+.picture .header,
+.bookmark .user {
+  border-color: #ba55d3;
+  background: #201925;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+li.blurb {
+  border-radius: 0.75em;
+  background: #331d3d;
+  border: none;
+}
+
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+.dashboard .listbox .index {
+  box-shadow: 3px 0px 0px #d9d073, -3px 0px 0px #d9d073;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#header ul.primary {
+  box-shadow: none;
+  padding: 1em;
+  color: #ba55d3;
+  background: url(https://images.squidge.org/images/2025/08/04/IMG_3283.png);
+  background-position-y: -100px;
+  background-position-x: 350px;
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+}
+
+#header .dropdown a {
+  background: #201925;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 8px;
+}
+
+#header .dropdown,
+#header .dropdown a,
+#header .dropdown a:hover {
+  color: #ba55d3 !important;
+}
+
+#header .dropdown .menu .current {
+  background-color: #eeeeee;
+  color: #331d3d;
+}
+
+.autocomplete div.dropdown ul {
+  border: 1px solid #eeeeee;
+  border-radius: 0.5em;
+}
+
+table,
+thead td,
+#header #small_login,
+#dashboard a:hover,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme {
+  background: #331d3d;
+}
+
+form blockquote.userstuff,
+.ui-sortable li:hover,
+.listbox,
+fieldset fieldset.listbox,
+.readings-index h3,
+.search span.tip,
+.flash,
+.notice,
+.error,
+.comment_error {
+  background: #331d3d;
+  color: #eeeeee;
+}
+
+.comment h4.byline {
+  background: transparent;
+}
+
+body,
+#main.error,
+#main.slow,
+#main.maintenance,
+.required .autocomplete,
+.autocomplete .notice,
+.post .required .warnings,
+.listbox .heading,
+.listbox .heading a:visited,
+.userstuff h2,
+.userstuff caption,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link,
+a.cloud3 {
+  color: #eeeeee;
+}
+
+.draft {
+  border-color: #eeeeee;
+}
+
+.actions a,
+.action,
+.action:link,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+span.unread,
+.replied,
+span.claimed {
+  border-bottom-color: #eeeeee;
+}
+
+.ui-sortable li:hover,
+.secondary,
+.wrapper,
+.ui-draggable form {
+  box-shadow: none;
+}
+
+.ui-sortable li {
+  background: #eeeeee12;
+  border: 2px solid #ddd;
+  float: left;
+  width: 100%;
+  clear: both;
+  box-shadow: 1px 1px 3px transparent;
+}
+
+#header #small_login {
+  box-shadow: none;
+}
+
+.delete a,
+span.delete {
+  box-shadow: none;
+}
+
+#header .primary .menu .current {
+  color: #00273d !important;
+}
+
+a,
+a:link,
+a:visited:hover,
+#dashboard a,
+#dashboard span,
+.autocomplete div.dropdown ul,
+.actions a:visited,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+a.tag,
+.tags a,
+a.cloud1,
+a.cloud2 {
+  border-bottom: none;
+  color: #ba55d3;
+}
+
+.userstuff h3,
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #00273d;
+}
+
+.userstuff h3 {
+  border-bottom: 0px;
+  font-size: 1.8em;
+}
+
+.userstuff h2 {
+  font-size: 2em;
+}
+
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  box-shadow: none;
+}
+
+a.tag:hover {
+  color: #fff !important;
+  background: #ba55d3;
+}
+
+.autocomplete .dropdown ul li:hover,
+li.selected {
+  background: #eeeeee;
+}
+
+#header #greeting img,
+#header .heading a,
+#header fieldset,
+#header form,
+#header p,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#dashboard a:hover,
+.actions a:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.system .latest h3,
+.system div.news h3,
+.system .tweets h3,
+.required,
+.error,
+a.cloud7,
+a.cloud8 {
+  color: #eeeeee;
+}
+
+#outer #header #greeting .icon,
+.error,
+.comment_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #eeeeee;
+}
+
+#dashboard a,
+.unread,
+#dashboard span,
+#dashboard.own,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.dashboard .own,
+.mods li,
+dl.stats dt,
+.blurb .header .heading,
+.blurb .header ul,
+.blurb .header p.status,
+fieldset.comments,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link {
+  background: #201925;
+}
+
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.actions a,
+.action,
+.actions input,
+.action:link input[type="submit"],
+button,
+.current,
+.actions label,
+#outer.wrapper,
+#inner.wrapper,
+dl.index,
+dl.stats,
+.listbox,
+fieldset fieldset.listbox,
+.listbox li.blurb,
+fieldset.comments,
+dl.nomination {
+  box-shadow: none;
+}
+
+h2,
+.system p#signup,
+#header h2 {
+  text-shadow: none;
+}
+
+#header h2 {
+  background: #ba55d3;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.dashboard .listbox {
+  border: 1px solid #ba55d3;
+}
+
+.comment fieldset {
+  border: 0px;
+}
+
+#greeting img.icon {
+  border-radius: 2em;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.primary .icon,
+.icon {
+  border-radius: 30px;
+  height: 7em;
+  width: 7em;
+  transition: 0.2s;
+}
+
+.icon:hover {
+  border-radius: 10px;
+}
+
+.picture .icon img {
+  border-radius: 31px;
+}
+
+.comment div.icon {
+  border-bottom: 0px;
+}
+
+span.symbol {
+  color: #eeeeee;
+  background: #201925;
+  border: 1px solid;
+  vertical-align: super;
+  border-radius: 0.75em;
+  box-shadow: none;
+}
+
+.notice {
+  border: 1px solid #eeeeee;
+  color: #eeeeee;
+  background: #201925;
+  box-shadow: none;
+  padding: 1em;
+}
+
+#modal-bg {
+  background: #eeeeee;
+}
+
+#modal .footer {
+  bottom: 0;
+  height: 44px;
+  left: 0;
+  line-height: 44px;
+  padding: 0 0.6432em;
+  right: 0;
+  position: absolute;
+  color: #201925;
+}
+
+.characters a:before,
+.relationships a:before,
+.freeforms a:before,
+.tags a:before {
+  color: #d9d073;
+  content: "\2726";
+  padding: 0 0.25em 0 0;
+}
+
+.splash .browse li a:before {
+  color: #eeeeee;
+  content: "\2726";
+  padding: 0 0.25em 0 0;
+}
+
+.btn,
+input[type="submit"],
+.actions li a,
+.actions li input,
+.actions li input[type="submit"],
+.actions li .current,
+.actions li label,
+.action:link {
+  color: #eeeeee;
+  background: #2b2a36;
+  border: none !important;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+input[type="submit"],
+input[type="submit"]:hover {
+  border: none;
+}
+
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions .current:hover {
+  color: #eeeeee;
+  background: #2b2a36;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+.tags input[type="radio"],
+.filters [type="radio"]+.indicator::before,
+.filters [type="radio"]+.indicator::before {
+  color: #eeeeee;
+  background: #201925;
+  border: 1px solid #eeeeee;
+  border-radius: 1em;
+  box-shadow: none;
+}
+
+.filters [type="radio"]:checked+.indicator::after,
+.filters [type="checkbox"]:checked+.indicator::after,
+[type="radio"]:checked+.indicator::after {
+  color: #eee;
+  background: #eeeeee;
+}
+
+#header .primary>li:first-of-type {
+  margin-left: 2em;
+}
+
+#dashboard a,
+.unread,
+#dashboard span,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.dashboard .own,
+.mods li,
+dl.stats dt,
+.blurb .header .heading,
+.blurb .header ul,
+.blurb .header p.status,
+fieldset.comments,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link {
+  background: #331d3d;
+}
+
+.assignment dl.stats,
+.assignment dl.stats dt,
+.assignment dl.stats dd,
+dl.stats,
+dl.stats dt {
+  background: transparent;
+  color: #f7f7f7;
+}
+
+.assignment .index dt {
+  margin-bottom: 5px;
+}
+
+.blurb dl.stats {
+  background: #331d3d;
+  margin-bottom: 5px;
+}
+
+#dashboard {
+  border: 1px solid #ba55d3 !important;
+  padding: 0.5em 0;
+  border-radius: 0.25em;
+  margin-left: 10px;
+  background: #331d3d;
+}
+
+.userstuff p {
+  color: #E6E6FA;
+  outline: none;
+}
+
+.user .datetime {
+  color: #f7f7f7;
+}
+
+.preface blockquote {
+  border: 0;
+  font-size: 100%;
+}
+
+p.kudos {
+  background: none;
+  padding: 0.5em;
+}
+
+ul.series,
+ul.series li {
+  color: #f7f7f7;
+}
+
+.own .header,
+.inbox .actions,
+.inbox .comments,
+.pseud .header,
+.collection .header {
+  background-color: transparent;
+}
+
+.own .type {
+  color: #f7f7f7;
+}
+
+.faq .example,
+.guideline .example {
+  border: 0px;
+  background-color: #331d3d;
+  border-radius: 5px;
+}
+
+.comment .icon .visitor {
+  background: url(/images/imageset.png) no-repeat -1px -76px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.skins .primary .icon,
+.admin .primary .icon {
+  padding: 0px;
+}
+
+.bookmark .count a {
+  color: #eeeeee;
+}
+
+.announcement .userstuff {
+  background: #ba55d3;
+  border-color: #ba55d3;
+  color: #fff;
+}
+
+.announcement .userstuff p {
+  color: #fff;
+}
+
+.announcement input[type="submit"],
+.announcement .action {
+  background: #fff none;
+  border: 1px solid #ce4c4c;
+  color: #f7f7f7;
+  font-size: 0.875em;
+  padding: 0.25em 0.5em;
+  border-radius: 2em;
+}
+
+input[name="preview_button"] {
+  color: #201925;
+  background: #ba55d3 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+input[name="post_button"] {
+  color: #201925;
+  background: #ba55d3 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+input[name="preview_button"]:hover {
+  color: #201925 !important;
+  background: #ba55d3 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+input[name="post_button"]:hover {
+  color: #201925 !important;
+  background: #ba55d3 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+#footer {
+  background: #331d3d !important;
+  color: #eeeeee;
+  border-top: none !important;
+}
+
+#footer .heading,
+#footer ul,
+#footer ul.navigation a {
+  color: #E6E6FA !important;
+}
+
+#footer a:hover {
+  box-shadow: none;
+}
+
+.warnings,
+.warning .tags,
+.relationships,
+.relationships .tags,
+.characters,
+.characters .tags,
+.freeforms,
+.freeforms .tags .series,
+.series .tags {
+  color: transparent;
+}
+
+.warnings a,
+.warning .tags a {
+  color: #b1050a;
+}
+
+.relationships a,
+.relationships .tags a {
+  color: #FFD700;
+}
+
+.characters a,
+.characters .tags a {
+  color: #528fbe;
+}
+
+.freeforms a,
+.freeforms .tags a {
+  color: #008000;
+}
+
+.series a,
+.series .tags a {
+  color: #ba55d3;
+}
+
+.event.announcement .userstuff a,
+.filters .expander {
+  color: #eee;
+}
+
+.kudos_error {
+  background: #201925;
+  border-color: #26ba9a;
+  box-shadow: none;
+}
+
+.blurb ul.required-tags li span {
+  border-radius: 5px;
+}
+
+.bookmark .status span,
+.bookmark .status a {
+  border-radius: 5px;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: transparent;
+}
+
+#comment_cancel {
+  color: #eee !important;
+}
+
+.stats dt:not(.skins .stats dt) {
+  display: none;
+}
+
+.stats dd:not(.skins .stats dd)::before {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-bottom: -0.1em;
+  margin-right: 5px;
+  content: "";
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  filter: invert(79%) sepia(0%) saturate(14%) hue-rotate(185deg) brightness(87%) contrast(87%);
+}
+
+.stats dd.language::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_language_black.png);
+}
+
+.stats dd.words::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_words_black.png);
+}
+
+.stats dd.works::before,
+.stats dd:has(a[href$=works])::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_works_black.png);
+}
+
+.stats dd.chapters::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_chapters_black.png);
+}
+
+.stats dd.comments::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_comments_black.png);
+}
+
+.stats dd.kudos::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_kudos_black.png);
+}
+
+.stats dd.bookmarks::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_bookmarks_black.png);
+  margin-right: 2px !important;
+}
+
+.stats dd.inspired::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_related-works_black.png);
+}
+
+.stats dd.hits::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_hits_black.png);
+}
+
+.stats dd.collections::before,
+.stats dd:has(a[href$=collections])::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_collection_black.png);
+}
+
+.stats dd.published::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_published_black.png);
+}
+
+.stats dd.status::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_updated_black.png);
+}
+
+.series.meta.group .stats dd:nth-of-type(3)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_complete_black.png);
+}
+
+.stats dd.subscriptions::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_subscriptions_black.png);
+}
+
+.statistics .stats dd.comments::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_comment-threads_black.png);
+}
+
+.stats dd:has(a[href$=fandoms])::before,
+.tagset .stats dd:nth-of-type(1)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_fandoms_black.png);
+}
+
+.collection.blurb .stats dd:has(a[href$=bookmarks])::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icons_bookmarked-items_black.png);
+}
+
+.stats dd:has(a[href$=requests])::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_promts_black.png);
+}
+
+.tagset .stats dd:nth-of-type(2)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_characters_black.png);
+}
+
+.tagset .stats dd:nth-of-type(3)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_relationships_black.png);
+}
+
+.tagset .stats dd:nth-of-type(4)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_tags-additional_black.png);
+}
+
+.tagset .meta .stats dd:nth-of-type(4)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_tags-freeform_black.png);
+}
+
+.stats dd::after {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  margin: 2em 0 0 -4em;
+  padding: 0.3em;
+  border-radius: 0.25em;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: #eee;
+  font-size: 0.85em;
+  line-height: 1em;
+  text-align: center;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.stats dd:hover::after {
+  display: inline-block;
+}
+
+.statistics .stats dd:last-of-type::after,
+.index .stats dd:last-of-type:has(a[href$=bookmarks])::after,
+.stats dd.inspired::after,
+.tagset .index .stats dd:last-of-type::after {
+  right: 0;
+}
+
+.stats dd.language::after {
+  content: "Language";
+}
+
+.stats dd.words::after {
+  content: "Words";
+}
+
+.stats dd.works::after,
+.stats dd:has(a[href$=works])::after {
+  content: "Works";
+}
+
+.stats dd.chapters::after {
+  content: "Chapters";
+}
+
+.stats dd.comments::after {
+  content: "Comments";
+}
+
+.stats dd.kudos::after {
+  content: "Kudos";
+}
+
+.stats dd.bookmarks::after {
+  content: "Bookmarks";
+}
+
+.stats dd.inspired::after {
+  content: "Related Works";
+}
+
+.stats dd.hits::after {
+  content: "Hits";
+}
+
+.stats dd.collections::after {
+  content: "Collections";
+}
+
+.stats dd.published::after {
+  content: "Published";
+}
+
+.stats dd.status::after {
+  content: "Updated";
+}
+
+.series.meta.group .stats dd:nth-of-type(3)::after {
+  content: "Complete";
+}
+
+.stats dd.subscriptions::after {
+  content: "Subscriptions";
+}
+
+.statistics .stats dd.comments::after {
+  content: "Comment Threads";
+}
+
+.stats dd:has(a[href$=fandoms])::after,
+.tagset .stats dd:nth-of-type(1)::after {
+  content: "Fandoms";
+}
+
+.tagset .stats dd:nth-of-type(2)::after {
+  content: "Characters";
+}
+
+.tagset .stats dd:nth-of-type(3)::after {
+  content: "Relationships";
+}
+
+.tagset .stats dd:nth-of-type(4)::after {
+  content: "Additional Tags";
+}
+
+.tagset .meta .stats dd:nth-of-type(4)::after {
+  content: "Freeforms";
+}
+
+.stats dd:has(a[href$=requests])::after {
+  content: "Prompts";
+}
+
+.collections-index .stats dd:has(a[href$=collections])::after {
+  content: "Challenges/Subcollections";
+}
+
+.collection.blurb .stats dd:has(a[href$=bookmarks])::after {
+  content: "Bookmarked Items";
+}
+
+ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  opacity: 1 !important;
+}
+
+img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  box-sizing: border-box;
+  content: url("https://images.squidge.org/images/2025/02/15/zerafina_icon_user-default_01.png");
+  background: #6e6e6e;
+  border: 1.5px solid #ddd;
+}
+
+.comment .icon .anonymous {
+  box-sizing: border-box;
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_anon_01.png");
+  background-size: cover;
+  background-color: #6e6e6e;
+  border: 1.5px solid #00000025;
+}
+
+.comment .icon .visitor {
+  box-sizing: border-box;
+  background: url("https://images.squidge.org/images/2025/02/15/zerafina_icon_user-visitor_01.png");
+  background-size: cover;
+  background-color: #6e6e6e;
+  border: 1.5px solid #00000025;
+}
+
+img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  box-sizing: border-box;
+  content: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_collection_01.png");
+  background: linear-gradient(transparent, #ffffff50 45% 55%, transparent);
+  background-color: #616c90;
+  border: 1.5px solid #00000025;
+}
+
+.tagset .primary .icon,
+.tag .primary .icon,
+.index .tagset .icon {
+  box-sizing: border-box;
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_tag_01.png"), 
+    linear-gradient(transparent, #ffffff50 45% 55%, transparent);
+  background-size: cover;
+  background-color: #900;
+  border: 1.5px solid #00000025;
+}
+
+.index .mystery .icon {
+  box-sizing: border-box;
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_anon_01.png"), 
+    linear-gradient(transparent, #ffffff50 45% 55%, transparent);
+  background-size: cover;
+  background-color: #616c90;
+  border: 1.5px solid #ddd;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.admin .primary .icon {
+  box-sizing: border-box;
+  background: url("https://images.squidge.org/images/2025/02/13/zerafina_icon_admin_01.png")  no-repeat, 
+    linear-gradient(#ffffff40, transparent);
+  background-size: cover;
+  background-color: #900;
+  border: 1.5px solid #00000099;
+}
+
+.skins .primary .icon:not(:has(a .icon)),
+.index .skins .icon:not(:has(a .icon)) {
+  background: url("https://images.squidge.org/images/2025/02/15/zerafina_icon_skins_01.png");
+  background-size: cover;
+  background-color: #900;
+  margin-left: 0px;
+  border: 0px solid #ddd;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+.blurb ul.required-tags li span,
+.bookmark .status span:not(.status .private),
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 1px;
+}
+
+.required-tags .rating-notrated,
+.required-tags .category-none,
+.required-tags .warning-no,
+.status .count,
+img[src$="/images/skins/iconsets/default/rating-notrated.png"],
+img[src$="/images/skins/iconsets/default/category-none.png"],
+img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  background: #fff;
+  color: #ddd;
+}
+
+.required-tags .rating-general-audience,
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-gen_01.png");
+  background-size: cover;
+  background-color: #8bc101;
+  color: #0000001a;
+}
+
+.required-tags .rating-teen,
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-teen_01.png");
+  background-size: cover;
+  background-color: #f5ce00;
+  color: #0000001a;
+}
+
+.required-tags .rating-mature,
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-mature_01.png");
+  background-size: cover;
+  background-color: #ef851c;
+  color: #0000001a;
+}
+
+.required-tags .rating-explicit,
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rating-explicit_01.png");
+  background-size: cover;
+  background-color: #b0021f;
+  color: #0000001a;
+}
+
+.required-tags .category-femslash,
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-ff_01.png");
+  background-size: cover;
+  background-color: #b0021f;
+  color: #0000001a;
+}
+
+.required-tags .category-het,
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-mf_01.png");
+  background-size: cover;
+  background-color: #910679;
+  color: #0000001a;
+}
+
+.required-tags .category-gen,
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-gen_01.png");
+  background-size: cover;
+  background-color: #8bc101;
+  color: #0000001a;
+}
+
+.required-tags .category-slash,
+img[src$="/images/skins/iconsets/default/category-slash.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-mm_01.png");
+  background-size: cover;
+  background-color: #0054d4;
+  color: #0000001a;
+}
+
+.required-tags .category-multi,
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background: conic-gradient(from 270deg, #8bc101 25%, #910679 25% 50%, #0054d4 50% 75%, #b0021f 75%);
+  color: #0000001a;
+}
+
+.required-tags .category-other,
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_category-other_01.png");
+  background-size: cover;
+  background-color: #000;
+  color: #0000001a;
+}
+
+.required-tags .warning-choosenotto,
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-choosenotto_01.png");
+  background-size: cover;
+  background-color: #ef851c;
+  color: #0000001a;
+}
+
+.required-tags .warning-yes,
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-yes_01.png");
+  background-size: cover;
+  background-color: #b0021f;
+  color: #0000001a;
+}
+
+.required-tags .external-work,
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_warning-external-work_01.png");
+  background-size: cover;
+  background-color: #107cb9;
+  color: #0000001a;
+}
+
+.required-tags .complete-no,
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_complete-no_01.png");
+  background-size: cover;
+  background-color: #b0021f;
+  color: #0000001a;
+}
+
+.required-tags .complete-yes,
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_complete-yes_01.png");
+  background-size: cover;
+  background-color: #8bc101;
+  color: #0000001a;
+}
+
+.status .rec,
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-rec_01.png");
+  background-size: cover;
+  background-color: #107cb9;
+  color: #0000001a;
+}
+
+.status .public,
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-public_01.png");
+  background-size: cover;
+  background-color: #107cb9;
+  color: #0000001a;
+}
+
+.status .private .text,
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  font-size: inherit;
+  text-indent: -9999px;
+  white-space: nowrap;
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-locked_01.png");
+  background-size: cover;
+  background-color: #000;
+  color: #ddd;
+}
+
+.status .hidden,
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  background: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_bookmark-locked_01.png");
+  background-size: cover;
+  background-color: #b0021f;
+  color: #ddd;
+}
+
+a.rss span {
+  background: none;
+}
+
+a.rss span::before {
+  content: "";
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  background-image: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_rss_01.png");
+  background-size: cover;
+  border-radius: 2px;
+  margin: 1px 0 0 -18px;
+  background-color: #ef851c;
+  box-shadow: inset 0 0 0 1px;
+  color: #00000025;
+}
+
+img[src$="/images/lockblue.png"] {
+  content: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_lock_01.png");
+  filter: invert(12%) sepia(100%) saturate(4991%) hue-rotate(244deg) brightness(71%) contrast(144%);
+}
