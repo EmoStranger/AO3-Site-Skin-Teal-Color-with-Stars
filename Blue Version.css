@@ -1,8 +1,3 @@
-/*========================================
-     Blue Color with Stars by tealtiam
-     Codes Modified by EmoStranger
-========================================*/
-/* site and work text size */
 body {
   font-size: 100% !important;
 }
@@ -11,39 +6,29 @@ body {
   font-size: 100% !important;
 }
 
-/* cursor highlight */
 ::selection {
-  background-color: #00BFFF; /* change the color of the highlight here */
-  color: #2b3d66; /* change the text color when highlighted here */
+  background-color: #00BFFF;
+  color: #1d2f58;
 }
 
-/*======= scroll bar on web browser =======*/
-
-/* width of scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* scrollbar track */
 ::-webkit-scrollbar-track {
-  background: #2b3d66; /* change the color of the track of the scrollbar here */
+  background: #1d2f58;
 }
 
-/* scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #00BFFF; /* change the color of the scrollbar here */
+  background: #00BFFF;
 }
 
-/*======= SITE BODY and WORKS =======*/
-
-/* main body background image on site & works */
 #main {
   background: url(https://images.squidge.org/images/2025/09/04/IMG_4066_2.png);
 }
 
-/* white stars raining on the top of any works */
 #workskin {
-  background: url(https://images.squidge.org/images/2025/08/03/tumblr_52b59ff9d2ebb288ac5cf797c77f01b1_c6e20708_640.gif); /* url of work banner here */
+  background: url(https://images.squidge.org/images/2025/08/03/tumblr_52b59ff9d2ebb288ac5cf797c77f01b1_c6e20708_640.gif);
   background-repeat: repeat-x;
   background-position: top;
   background-color: #111b330f;
@@ -88,12 +73,12 @@ input[type="submit"]:hover,
 .actions li input[type="submit"]:hover,
 .actions .current:hover {
   color: #eee !important;
-  background: #2b3d66 !important;
+  background: #1d2f58 !important;
 }
 
 .actions a:hover,
 .actions li .current a:hover {
-  background: #2b3d66 !important;
+  background: #1d2f58 !important;
   background-image: none;
   color: #eee !important;
 }
@@ -103,19 +88,17 @@ input[type="submit"]:hover,
 }
 
 .splash .favorite li:nth-of-type(2n+1) a {
-  background: #2b3d66;
+  background: #1d2f58;
 }
 
 body {
-  background: #2b3d66 !important;
+  background: #1d2f58 !important;
 }
 
-/* transition when cursor hovers over icon images and tags */
 a {
-  transition: 0.2s ease-in-out !important; /* change the seconds for transition speed here */
+  transition: 0.2s ease-in-out !important;
 }
 
-/* font for site buttons (including login/out & search), tags, site text, works text, search text, tier 2 dropdown (Sort and Filters), blurb stats, announcement, footer links */
 body,
 th,
 tr:hover,
@@ -138,8 +121,8 @@ textarea,
 .dashboard .listbox .index,
 .nomination dt {
   background: #111B33;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont'; /* change the font text of site, works, tags, buttons, etc. here */
-  color: #eeeeee; /* change the color of the font here */
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+  color: #eeeeee;
 }
 
 #outer.wrapper {
@@ -180,13 +163,9 @@ ul.notes,
   background-color: transparent !important;
 }
 
-form dd.required {
-  color: #eeeeee;
-}
-
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover {
-  color: #2b3d66;
+  color: #1d2f58;
   background-color: #eeeeee;
 }
 
@@ -195,13 +174,12 @@ form dd.required {
   color: #eeeeee !important;
 }
 
-/* content work symbol container */
 .blurb ul.required-tags {
-  background: #2b3d66 !important; /* change the background color here */
+  background: #1d2f58 !important;
 }
 
 .filters dl {
-  background: #2b3d66; 
+  background: #1d2f58;
 }
 
 #dashboard .actions .current {
@@ -268,7 +246,7 @@ h5.heading,
 }
 
 .reading h4.viewed {
-  background: #2b3d66;
+  background: #1d2f58;
   border: 1px solid #eeeeee;
   padding: 0.5em;
   border-radius: 0.25em;
@@ -282,7 +260,7 @@ h5.heading,
 #header .menu li a:link,
 #header .menu li a:visited {
   border-radius: 0.75em;
-  background: #2b3d66 !important;
+  background: #1d2f58 !important;
   color: #eeeeee !important;
   border: none;
 }
@@ -293,7 +271,6 @@ h5.heading,
   background: #111B33 !important;
 }
 
-/* button for Sort and Filter */
 .filters .submit input {
   height: 100%;
   margin: 1em 0;
@@ -301,8 +278,8 @@ h5.heading,
   padding-left: 0;
   padding-right: 0;
   text-align: center;
-  color: #eeeeee; /* change the color of the font here */
-  background: #0b1320; /* change the background color of the button here */
+  color: #eeeeee;
+  background: #0b1320;
 }
 
 #header #search>* {
@@ -344,21 +321,6 @@ li.search fieldset,
   padding: 5px;
   width: 90%;
   -webkit-appearance: none;
-}
-
-.actions a:hover,
-.actions button:hover,
-.actions input:hover,
-.actions a:focus,
-.actions button:focus,
-.actions input:focus,
-label.action:hover,
-.action:hover,
-.action:focus {
-  color: #00BFFF;
-  border-top: 1px solid #999;
-  border-left: 1px solid #999;
-  box-shadow: inset 2px 2px 2px #bbb;
 }
 
 .input,
@@ -445,7 +407,7 @@ form dt,
 a.current,
 .current a:visited,
 .search span.tip {
-  border-color: #2b3d66;
+  border-color: #1d2f58;
 }
 
 .heading a,
@@ -463,7 +425,7 @@ a.current,
 }
 
 .listbox .index {
-  background: #2b3d66;
+  background: #1d2f58;
 }
 
 a.tag {
@@ -568,7 +530,7 @@ li.comment,
 .actions a:hover,
 .actions input:hover,
 .userstuff blockquote {
-  border-color: #2b3d66;
+  border-color: #1d2f58;
 }
 
 fieldset,
@@ -604,17 +566,17 @@ dl.index dd,
 .child,
 .unwrangled,
 .unreviewed {
-  background: #2b3d66;
+  background: #1d2f58;
 }
 
 #bookmark-form {
-  background: #2b3d66;
+  background: #1d2f58;
 }
 
 #dashboard.own,
 #dashboard .secondary,
 #dashboard ul.navigation {
-  background: #2b3d66 !important;
+  background: #1d2f58 !important;
 }
 
 #dashboard.own {
@@ -678,7 +640,7 @@ dl.meta,
 
 li.blurb {
   border-radius: 0.75em;
-  background: #2b3d66;
+  background: #1d2f58;
   border: none;
 }
 
@@ -717,7 +679,7 @@ li.blurb,
 
 #header .dropdown .menu .current {
   background-color: #eeeeee;
-  color: #2b3d66;
+  color: #1d2f58;
 }
 
 .autocomplete div.dropdown ul {
@@ -735,7 +697,7 @@ fieldset dl dl,
 fieldset fieldset fieldset,
 fieldset fieldset dl dl,
 dd.hideme {
-  background: #2b3d66;
+  background: #1d2f58;
 }
 
 form blockquote.userstuff,
@@ -748,7 +710,7 @@ fieldset fieldset.listbox,
 .notice,
 .error,
 .comment_error {
-  background: #2b3d66;
+  background: #1d2f58;
   color: #eeeeee;
 }
 
@@ -1166,7 +1128,7 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link {
-  background: #2b3d66;
+  background: #1d2f58;
 }
 
 .assignment dl.stats,
@@ -1183,7 +1145,7 @@ dl.stats dt {
 }
 
 .blurb dl.stats {
-  background: #2b3d66;
+  background: #1d2f58;
   margin-bottom: 5px;
 }
 
@@ -1192,7 +1154,7 @@ dl.stats dt {
   padding: 0.5em 0;
   border-radius: 0.25em;
   margin-left: 10px;
-  background: #2b3d66;
+  background: #1d2f58;
 }
 
 .userstuff p {
@@ -1234,7 +1196,7 @@ ul.series li {
 .faq .example,
 .guideline .example {
   border: 0px;
-  background-color: #2b3d66;
+  background-color: #1d2f58;
   border-radius: 5px;
 }
 
