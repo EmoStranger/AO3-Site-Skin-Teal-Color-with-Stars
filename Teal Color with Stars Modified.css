@@ -799,6 +799,15 @@ span.claimed {
   box-shadow: none;
 }
 
+.ui-sortable li {
+  background: #eeeeee12;
+  border: 2px solid #ddd;
+  float: left;
+  width: 100%;
+  clear: both;
+  box-shadow: 1px 1px 3px transparent;
+}
+
 #header #small_login {
   box-shadow: none;
 }
@@ -1189,7 +1198,6 @@ dl.stats dt {
 .userstuff p {
   color: #969696; /* change the color of the text here */
   outline: none;
-  font-size: medium; /* change the size of the text here */
 }
 
 /* datetime on blurbs, comments, and posts */
@@ -1890,7 +1898,7 @@ img[src$="/images/skins/iconsets/default/category-slash.png"] {
 /* Multi */
 .required-tags .category-multi,
 img[src$="/images/skins/iconsets/default/category-multi.png"] {
-  background: conic-gradient(from 270deg, #8bc101 25%, #910679 25% 50%, #0054d4 50% 75%, #b0021f 75%); /* url of new icon */
+  background: conic-gradient(from 270deg, #8bc101 25%, #910679 25% 50%, #0054d4 50% 75%, #b0021f 75%);
   color: #0000001a; /* change border color here */
 }
 
