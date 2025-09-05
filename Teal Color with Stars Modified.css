@@ -499,6 +499,13 @@ a.current,
   padding: 0.2em;
 }
 
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: #3ba79e;
+}
+
 .splash .module h3 {
   border-bottom: none;
   font-variant: small-caps;
