@@ -655,7 +655,7 @@ dl.index dd,
 }
 
 #dashboard ul {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .actions a,
@@ -707,7 +707,6 @@ dl.meta,
   border-color: #ba55d3; /* change the color of the border here */
   background: #201925; /* change the color of the background here */
   border-radius: 5px;
-  margin-bottom: 6px;
 }
 
 /* blurbs background color */
@@ -878,6 +877,11 @@ span.delete {
   box-shadow: none;
 }
 
+#header .primary .menu a {
+  padding: 0.75em 0.5em 0.5em;
+  margin: 0px;
+}
+
 #header .primary .menu .current {
   color: #00273d !important;
 }
@@ -919,7 +923,7 @@ a.cloud2 {
 }
 
 .actions a:active,
-.action:hover
+.action:hover,
 .current,
 a.current,
 .current a:visited {
@@ -1106,7 +1110,6 @@ span.symbol {
   color: #eeeeee;
   background: #201925;
   box-shadow: none;
-  padding: 1em;
 }
 
 #modal-bg {
@@ -1318,20 +1321,26 @@ ul.series li {
 }
 
 .announcement .userstuff {
-  background: #ba55d3;
-  border-color: #ba55d3;
-  color: #fff;
+  background: #48325a;
+  border-color: #85649d;
+  color: #bfa1d2;
+}
+
+.alert .userstuff {
+  background: #48325a;
+  border-color: #85649d;
+  color: #bfa1d2;
 }
 
 .announcement .userstuff p {
-  color: #fff;
+  color: #9b94e2;
 }
 
 .announcement input[type="submit"],
 .announcement .action {
-  background: #fff none;
-  border: 1px solid #ce4c4c;
-  color: #f7f7f7;
+  background: #48325a none;
+  border: 1px solid #d9d073;
+  color: #000000;
   font-size: 0.875em;
   padding: 0.25em 0.5em;
   border-radius: 2em;
