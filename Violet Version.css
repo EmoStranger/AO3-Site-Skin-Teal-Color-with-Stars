@@ -785,6 +785,14 @@ fieldset fieldset.listbox,
   color: #eeeeee;
 }
 
+div.comment,
+li.comment {
+  position: relative;
+  border: 1px solid #dddddd00;
+  overflow: visible;
+  text-align: start;
+}
+
 .comment h4.byline {
   background: transparent;
 }
