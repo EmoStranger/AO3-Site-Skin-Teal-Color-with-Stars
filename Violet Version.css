@@ -333,6 +333,11 @@ h5.heading,
   background: #201925 !important;
 }
 
+#header .menu,
+#small_login {
+  box-sizing: border-box;
+}
+
 /* button for Sort and Filter */
 .filters .submit input {
   height: 100%;
@@ -746,6 +751,13 @@ li.blurb,
 #header .dropdown a,
 #header .dropdown a:hover {
   color: #ba55d3 !important; /* change the color of the font here */
+}
+
+#header .dropdown .menu a {
+  background: transparent;
+  display: block;
+  padding: 0.75em 0.5em 0.5em;
+  margin: 0px;
 }
 
 #header .dropdown .menu .current {
