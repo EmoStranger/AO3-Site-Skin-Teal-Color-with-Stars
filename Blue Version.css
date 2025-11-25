@@ -1388,132 +1388,208 @@ input[name="post_button"]:hover {
   color: #eee !important;
 }
 
-.stats dt:not(.skins .stats dt) {
+dl.stats dd,
+dl.stats dt,
+.meta .stats dl dd {
+  margin: 0;
+  padding: 0;
+}
+
+dl.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  column-gap: 1em; /* gap between individual stats */
+}
+
+/* stats in meta boxes should be left-aligned */
+.meta dl.stats {
+  justify-content: left;
+}
+
+/* indent for stats icons in meta box on statistics page */
+dl.meta.statistics dd {
+  padding-left: 4px; /* this should be the same as margin-right below */
+}
+
+/* position of icon in relation to corresponding value */
+dl.stats dd,
+dl.statistics dt {
+  display: flex;
+  align-items: baseline;
+}
+
+/*========== setup for the stats icons ==========*/
+
+/* hide the text before the stats */
+.stats:not(.skins .stats) dt {
   display: none;
 }
 
-.stats dd:not(.skins .stats dd)::before {
+/* styling the icons */
+.stats:not(.skins .stats) dd::before,
+dl.statistics dt::before {
   display: inline-block;
+  content: "";
   width: 1em;
   height: 1em;
-  margin-bottom: -0.1em;
-  margin-right: 5px;
-  content: "";
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
+  margin-right: 4px;
+  transform: translate(0, 1px);
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  filter: invert(79%) sepia(0%) saturate(14%) hue-rotate(185deg) brightness(87%) contrast(87%);
+  filter: invert(79%) sepia(0%) saturate(14%) hue-rotate(185deg) brightness(87%) contrast(87%); /* changes the color of the icons from black to gray */
 }
 
+/*========== stats icons (images) ==========*/
+
+/* language */
 .stats dd.language::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_language_black.png);
+  background-image: url("https://i.ibb.co/KzD2KWZv/zerafina-stats-icon-language-01.png");
 }
 
-.stats dd.words::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_words_black.png);
+/* words */
+.stats dd.words::before,
+dl.statistics dt.words::before {
+  background-image: url("https://i.ibb.co/7x2N2zV8/zerafina-stats-icon-words-01.png");
 }
 
+/* works */
 .stats dd.works::before,
-.stats dd:has(a[href$=works])::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_works_black.png);
+.stats dd:has(a[href$=works])::before /* works in collection */ {
+  background-image: url("https://i.ibb.co/twZf0RM9/zerafina-stats-icon-works-01.png");
 }
 
+/* chapters */
 .stats dd.chapters::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_chapters_black.png);
+  background-image: url("https://i.ibb.co/JRpLfkgf/zerafina-stats-icon-chapters-01.png");
 }
 
+/* comments */
 .stats dd.comments::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_comments_black.png);
+  background-image: url("https://i.ibb.co/3YTgryH2/zerafina-stats-icon-comments-01.png");
 }
 
-.stats dd.kudos::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_kudos_black.png);
+/* kudos */
+.stats dd.kudos::before,
+dl.statistics dt.kudos::before {
+  background-image: url("https://i.ibb.co/5gPnsXN4/zerafina-stats-icon-kudos-01.png");
 }
 
-.stats dd.bookmarks::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_bookmarks_black.png);
-  margin-right: 2px !important;
+/* bookmarks */
+.stats dd.bookmarks::before,
+dl.statistics dt.bookmarks::before {
+  background-image: url("https://i.ibb.co/DDgZz4Gw/zerafina-stats-icon-bookmarks-02.png");
 }
 
+/* related works (external bookmarks) */
 .stats dd.inspired::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_related-works_black.png);
+  background-image: url("https://i.ibb.co/rGDJWrbZ/zerafina-stats-icon-related-works-01.png");
 }
 
-.stats dd.hits::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_hits_black.png);
+/* hits */
+.stats dd.hits::before,
+dl.statistics dt.hits::before {
+  background-image: url("https://i.ibb.co/Zz7mY8yL/zerafina-stats-icon-hits-01.png");
 }
 
+/* collections */
 .stats dd.collections::before,
-.stats dd:has(a[href$=collections])::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_collection_black.png);
+.stats dd:has(a[href$=collections])::before /* subcollections*/ {
+  background-image: url("https://i.ibb.co/ks5VXnDZ/zerafina-stats-icon-collection-01.png");
 }
 
+/* date published */
 .stats dd.published::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_published_black.png);
+  background-image: url("https://i.ibb.co/DDmDb5sP/zerafina-stats-icon-published-01.png");
 }
 
+/* date updated/completed */
+/* I have not found a way to display a different icon for each case */
 .stats dd.status::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_updated_black.png);
+  background-image: url("https://i.ibb.co/Y7zRgwS3/zerafina-stats-icon-updated-01.png");
 }
 
+/* completion status (series) */
 .series.meta.group .stats dd:nth-of-type(3)::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_complete_black.png);
+  background-image: url("https://i.ibb.co/S7vdPxLc/zerafina-stats-icon-complete-01.png");
 }
 
-.stats dd.subscriptions::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_subscriptions_black.png);
+/* subscriptions (statistics page) */
+.stats dd.subscriptions::before,
+dl.statistics dt.subscriptions::before {
+  background-image: url("https://i.ibb.co/VY57wxPD/zerafina-stats-icon-subscriptions-01.png");
 }
 
-.statistics .stats dd.comments::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_comment-threads_black.png);
+/* comment threads (statistics page) */
+.statistics .stats dd.comments::before,
+dl.statistics dt.comment::before {
+  background-image: url("https://i.ibb.co/078f2nh/zerafina-stats-icon-comment-threads-01.png");
 }
 
+/* fandoms */
 .stats dd:has(a[href$=fandoms])::before,
 .tagset .stats dd:nth-of-type(1)::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_fandoms_black.png);
+  background-image: url("https://i.ibb.co/tPpqR5g3/zerafina-stats-icon-fandoms-01.png");
 }
 
+/* collections: bookmarked items */
 .collection.blurb .stats dd:has(a[href$=bookmarks])::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icons_bookmarked-items_black.png);
+  background-image: url("https://i.ibb.co/h5cy7x0/zerafina-stats-icon-bookmarked-items-01.png");
 }
 
+/* collections: promts/requests */
 .stats dd:has(a[href$=requests])::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_promts_black.png);
+  background-image: url("https://i.ibb.co/tSm91Kw/zerafina-stats-icon-promts-01.png");
 }
 
+/* tagsets: characters */
 .tagset .stats dd:nth-of-type(2)::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_characters_black.png);
+  background-image: url("https://i.ibb.co/G4FxyzRY/zerafina-stats-icon-characters-01.png");
 }
 
+/* tagests: relationships */
 .tagset .stats dd:nth-of-type(3)::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_relationships_black.png);
+  background-image: url("https://i.ibb.co/sJdDTdTq/zerafina-stats-icon-relationships-01.png");
 }
 
+/* tagsets: additional tags*/
 .tagset .stats dd:nth-of-type(4)::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_tags-additional_black.png);
+  background-image: url("https://i.ibb.co/HLPwzwMh/zerafina-stats-icon-tags-additional-01.png");
 }
 
+/* tagsets: freeform tags *//* example: https://archiveofourown.org/tag_sets/19213 */
 .tagset .meta .stats dd:nth-of-type(4)::before {
-  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_tags-freeform_black.png);
+  background-image: url("https://i.ibb.co/ynKkVZyk/zerafina-stats-icon-tags-freeform-01.png");
 }
 
+/*============================================================
+STATS HOVER TEXT
+============================================================*/
+/*========== general formatting/styling ==========*/
+
+dl.stats dd {
+  position: relative;
+  justify-content: center;
+}
+
+/* text container (tooltip) */
 .stats dd::after {
   display: none;
   position: absolute;
-  z-index: 99999;
-  margin: 2em 0 0 -4em;
+  top: 2em;
   padding: 0.3em;
-  border-radius: 0.25em;
   border: 1px solid #555;
-  background: #2a2a2a;
-  color: #eee;
+  border-radius: 0.25rem;
+  background: #2A2A2A;
+  color: #EEE;
   font-size: 0.85em;
-  line-height: 1em;
+  line-height: 1;
   text-align: center;
-  word-break: break-word;
-  white-space: normal;
+  z-index: 99999;
 }
 
+/* makes text appear on hover */
 .stats dd:hover::after {
   display: inline-block;
 }
