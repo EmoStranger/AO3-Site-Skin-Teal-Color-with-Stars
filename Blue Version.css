@@ -1200,7 +1200,11 @@ dl.stats dt {
 }
 
 p.kudos {
-  background: none;
+  padding-left: 6em;
+  background: url("https://raw.githubusercontent.com/EmoStranger/AO3-Site-Skin-Teal-Color-with-Stars/refs/heads/main/images/Serena_Kudos.png");
+  background-size: 70px 110px;
+  background-repeat: no-repeat;
+  min-height: 110px;
 }
 
 ul.series,
@@ -2002,16 +2006,6 @@ img[src$="/images/lockblue.png"] {
   bottom: -5px;
 }
 
-div:has(> p.kudos)::before {
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  background: url("https://raw.githubusercontent.com/EmoStranger/AO3-Site-Skin-Teal-Color-with-Stars/refs/heads/main/icons/IMG_4270.png");
-  background-size: cover;
-  content: "";
-  filter: brightness(0) saturate(100%) invert(41%) sepia(9%) saturate(2848%) hue-rotate(174deg) brightness(106%) contrast(87%);
-}
-
 .announcement .thermometer .track {
   border: 1px solid #aa9977;
 }
@@ -2023,4 +2017,11 @@ div:has(> p.kudos)::before {
   border-radius: 0.75em;
   border: 1px solid #00BFFF;
   padding: 0.643em;
+}
+
+.work.navigation .download,
+.javascript .work.navigation .download .secondary {
+  background: #111B33;
+  border: 2px solid #bbb;
+  box-shadow: none;
 }
