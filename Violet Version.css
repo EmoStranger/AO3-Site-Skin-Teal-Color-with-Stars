@@ -2151,6 +2151,15 @@ img[src$="/images/lockblue.png"] {
   padding: 0.643em;
 }
 
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+.LV_validation_message {
+  display: block;
+}
+
 .work.navigation .download,
 .javascript .work.navigation .download .secondary {
   background: #201925;
