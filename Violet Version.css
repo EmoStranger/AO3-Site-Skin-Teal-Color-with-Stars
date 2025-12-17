@@ -883,7 +883,7 @@ span.delete {
 }
 
 #header .primary .menu .current {
-  color: #00273d !important;
+  color: #2a003d !important;
 }
 
 a,
@@ -910,7 +910,7 @@ a.cloud2 {
 #header .primary .current,
 #header .primary input,
 #header .search input {
-  border-color: #00273d;
+  border-color: #2a003d;
 }
 
 .userstuff h3 {
