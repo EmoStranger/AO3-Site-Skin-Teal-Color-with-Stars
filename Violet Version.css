@@ -273,7 +273,7 @@ fieldset {
 #header .user a:visited {
   margin: 2px;
   color: #eeeeee !important;
-  padding: 0.6em 0.75em;
+  padding: 8px;
 }
 
 .picture .header {
@@ -1344,7 +1344,6 @@ ul.series li {
   background: #48325a none;
   border: 1px solid #85649d;
   color: #eeeeee;
-  font-size: 14.7em;
   padding: 0.25em 0.5em;
   border-radius: 2em;
 }
