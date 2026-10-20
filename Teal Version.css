@@ -1402,6 +1402,10 @@ input[name="post_button"]:hover {
   color: #eee !important;
 }
 
+.wrapper:has(> table, > .meta) {
+    box-shadow: none;
+}
+
 /*====================================
     STATS ICONS by ZerafinaCSS
 ====================================*/
