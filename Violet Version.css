@@ -2164,3 +2164,7 @@ textarea {
   border: 2px solid #bbbbbb;
   box-shadow: none;
 }
+
+.wrapper:has(> table, > .meta) {
+    box-shadow: none;
+}
