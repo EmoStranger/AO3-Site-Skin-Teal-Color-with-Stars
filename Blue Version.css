@@ -2032,3 +2032,7 @@ textarea {
   border: 2px solid #bbb;
   box-shadow: none;
 }
+
+.wrapper:has(> table, > .meta) {
+    box-shadow: none;
+}
